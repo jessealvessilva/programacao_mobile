@@ -1,18 +1,12 @@
 main() {
-  List numeros = [2, 8, 7, 9, 15];
-  List alunos = ["Ana", "Maria", "Jose", "Pedro", "Joao", "Cappucino", "Zé"];
+  var dias = {"Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira"};
 
-  Map telefone = {
-    "Joao": "27 9984574",
-    "Maria": "28 998587455",
-    "Jose": "27 9858 1245"
-  };
+  // print(dias is Set);
 
-  print(telefone.length);
-  print(telefone["Maria"]);
-  print(telefone.isEmpty);
-  print(telefone.isNotEmpty);
-  print(telefone.values);
-  print(telefone.keys);
-  print(telefone.entries);
+  // print(dias.add("Sexta-Feira"));
+
+  dias.add("Sexta-Feira");
+
+  // print(dias.first);
+  print(dias.last);
 }
